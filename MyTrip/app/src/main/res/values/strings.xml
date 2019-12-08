@@ -4,4 +4,5 @@
     <string name="price">Price</string>
     <string name="autonomy">Autonomy</string>
     <string name="calculate">CALCULATE</string>
+    <string name="invalid_values">Please, inform valid values</string>
 </resources>
