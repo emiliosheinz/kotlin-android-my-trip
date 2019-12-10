@@ -20,6 +20,15 @@
         android:background="@drawable/round_edit_text"
         android:gravity="center"
         android:hint="@string/distance"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="@string/total_distance"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDarkGray"
+        android:textSize="10sp"/>
 
     <EditText
         android:id="@+id/editPrice"
@@ -33,6 +42,15 @@
         android:background="@drawable/round_edit_text"
         android:gravity="center"
         android:hint="@string/price"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="@string/price_per_liter"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDarkGray"
+        android:textSize="10sp"/>
 
     <EditText
         android:id="@+id/editAutonomy"
@@ -46,11 +64,33 @@
         android:background="@drawable/round_edit_text"
         android:gravity="center"
         android:hint="@string/autonomy"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:text="@string/km_per_liter"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDarkGray"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="@string/total_spend"
+        android:textAllCaps="true"
+        />
 
     <TextView
         android:id="@+id/textResult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textSize="35sp"
         android:text="R$ 0,00"/>
 
     <Button

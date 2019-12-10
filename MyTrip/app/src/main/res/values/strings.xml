@@ -5,4 +5,8 @@
     <string name="autonomy">Autonomy</string>
     <string name="calculate">CALCULATE</string>
     <string name="invalid_values">Please, inform valid values</string>
+    <string name="total_distance">Total distance</string>
+    <string name="price_per_liter">Price per liter</string>
+    <string name="km_per_liter">KM per liter</string>
+    <string name="total_spend">Your total spend will be:</string>
 </resources>
