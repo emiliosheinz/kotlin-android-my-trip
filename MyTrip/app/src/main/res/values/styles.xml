@@ -18,6 +18,7 @@
         <item name="android:gravity">center</item>
         <item name="android:layout_height">50dp</item>
         <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">20sp</item>
     </style>
 
     <style name="customInputTextHint" parent="TextAppearance.AppCompat">
@@ -27,7 +28,7 @@
         <item name="android:layout_marginTop">2dp</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:textColor">@color/colorDarkGray</item>
-        <item name="android:textSize">10sp</item>
+        <item name="android:textSize">15sp</item>
     </style>
 
 </resources>

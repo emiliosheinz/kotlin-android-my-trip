@@ -31,9 +31,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 val price = editPrice.text.toString().toFloat()
                 val autonomy = editAutonomy.text.toString().toFloat()
 
-                val result = ((distance * price) / autonomy)
+                val result = ((distance * price) / autonomy).toString().replace(".", ",")
 
-                textResult.setText("Total: R$ $result")
+                textResult.setText("R$ $result")
             } catch (nfe: NumberFormatException) {
                 Toast.makeText(this, R.string.invalid_values, Toast.LENGTH_LONG).show()
             }
