@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="customEditText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textColorHint">@color/colorDarkGray</item>
+        <item name="android:background">@drawable/round_edit_text</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
 </resources>
