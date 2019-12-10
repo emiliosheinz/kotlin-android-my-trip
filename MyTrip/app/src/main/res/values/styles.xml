@@ -20,4 +20,14 @@
         <item name="android:layout_width">match_parent</item>
     </style>
 
+    <style name="customInputTextHint" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorDarkGray</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
 </resources>
