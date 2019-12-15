@@ -6,6 +6,8 @@ import android.view.View
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import java.lang.NumberFormatException
+import java.text.NumberFormat
+import java.util.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -31,9 +33,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 val price = editPrice.text.toString().toFloat()
                 val autonomy = editAutonomy.text.toString().toFloat()
 
-                val result = ((distance * price) / autonomy).toString().replace(".", ",")
+                val ptBR = NumberFormat.getCurrencyInstance(Locale("pt", "BR"))
 
-                textResult.setText("R$ $result")
+                val resultFloat = ((distance * price) / autonomy)
+                val result = ptBR.format(resultFloat)
+
+                textResult.setText("$result")
             } catch (nfe: NumberFormatException) {
                 Toast.makeText(this, R.string.invalid_values, Toast.LENGTH_LONG).show()
             }
