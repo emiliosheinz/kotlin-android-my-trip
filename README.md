@@ -11,4 +11,4 @@ An application that calculates the total cost of your trip based on some variabl
 - Android Studio
 
 ## :man: Contributors
-- @emilioheinz
+- [@emiliosheinz](https://github.com/emiliosheinz)
