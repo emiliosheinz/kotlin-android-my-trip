@@ -9,6 +9,3 @@ An application that calculates the total cost of your trip based on some variabl
 - XML
 - Android
 - Android Studio
-
-## :man: Contributors
-- [@emiliosheinz](https://github.com/emiliosheinz)
